@@ -8,13 +8,13 @@ Congratulations Peter! You can now compete in Orange Island Pokémon tournament!
 
 Deliverables:
 
-Trainer
++ Trainer
 The trainer should have a:
 + Name
 + Age
 + Skill Level (e.g. amateur, intermediate, expert)
 
-Pokémon
++ Pokémon
 The pokémon should have a:
 + Name
 + Type (e.g. thunder, ghost, water)
