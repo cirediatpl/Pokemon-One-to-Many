@@ -2,20 +2,18 @@
 
 ## Introduction
 
-Congratulations Peter! You can now compete in Orange Island Pokémon tournament! However, you are still but a naked trainer with no pokémon to your name. You need to catch as many pokémon as possible so that you can fight your way through to be the number one trainer on the island.
+Congratulations Peter! You can now compete in Orange Island Pokémon tournament! However, you are still but a naked trainer with no pokémon to your name. You need to catch as **many** pokémon as possible so that you can fight your way through to be the number **one** trainer on the island.
 
 ## Your Tasks
 
 Deliverables:
 
-+ Trainer
-The trainer should have a:
+The **trainer** should have a:
 + Name
 + Age
 + Skill Level (e.g. amateur, intermediate, expert)
 
-+ Pokémon
-The pokémon should have a:
+The **pokémon** should have a:
 + Name
 + Type (e.g. thunder, ghost, water)
 + Power level (e.g. 1, 2, 3, 4)
