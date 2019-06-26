@@ -1,0 +1,10 @@
+<h1>Edit a Trainer -- Professor Elm</h1>
+
+<% trainer = @trainer %>
+<%= form_for( trainer , remote: true) do |f| %>
+    <div>Name: <%= f.text_field :name %></div>
+    <div>Age: <%= f.number_field :age %></div>
+    <div>Skill Level: <%= f.text_field :skill_level %></div>
+    <div><%= f.collection_check_boxes :pokemon_ids, @pokemons, :id, :name %></div>
+    <div><%= f.submit %></div>
+<% end %>

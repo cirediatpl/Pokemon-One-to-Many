@@ -1,0 +1,4 @@
+<% @trainers.each do |trainer| %>
+    <div><%= link_to trainer.name, trainer_path(trainer) %>
+    Number of Pokemons: <%= trainer.pokemons.count %></div>
+<% end %>

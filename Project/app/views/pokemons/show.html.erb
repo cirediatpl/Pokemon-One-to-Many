@@ -1,0 +1,10 @@
+<h1><%= @pokemon.name %></h1>
+<h2><%= @pokemon.pokemon_type %></h2>
+<h3><%= @pokemon.power_level %></h3>
+
+<% if @pokemon.trainer %>
+    <%= link_to @pokemon.trainer.name, trainer_path(@pokemon.trainer) %>
+<% else %>
+    <%= "Wild Pokemon" %>
+<% end %>
+<%# end #%>

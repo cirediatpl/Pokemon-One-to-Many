@@ -1,0 +1,18 @@
+
+
+<h1>Hatch a new Pokemon</h1>
+
+<%= form_for( @pokemon , remote: true) do |f| %>
+    <div>Name: <%= f.text_field :name %></div>
+    <div>Level: <%= f.number_field :power_level %></div>
+    <div>Type: <%= f.text_field :pokemon_type %></div>
+    <div><%= f.collection_select :trainer_id, @trainers, :id, :name %></div>
+    <div><%= f.submit %></div>
+<% end %>
+
+<% if !flash.now[:error].nil? %>
+    Hello
+    <% flash.now[:error].each do |msg| %>
+        <li><%= "Anything" %></li>
+    <% end %>
+<% end %>
